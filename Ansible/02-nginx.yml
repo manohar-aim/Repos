@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - nane: install nginx
-    ansible.builting.package:
+    ansible.builtin.package:
       name: nginx
       state: present
 
