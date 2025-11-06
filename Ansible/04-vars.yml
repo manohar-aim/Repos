@@ -8,6 +8,6 @@
   tasks:
   - name: display course details
     vars:
-    COURSE: "Ansible for Devops"
+      COURSE: "Ansible for Devops"
     ansible.builtin.debug:
       msg: "Course is: {{ COURSE }}, Duration: {{ DURATION }}, Trainer: {{ TRAINER }}"
