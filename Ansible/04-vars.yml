@@ -7,7 +7,7 @@
     TRAINER: "Manohar Anaganti"
   tasks:
   - name: display course details
-  vars:
+    vars:
     COURSE: "Ansible for Devops"
     ansible.builtin.debug:
       msg: "Course is: {{ COURSE }}, Duration: {{ DURATION }}, Trainer: {{ TRAINER }}"
