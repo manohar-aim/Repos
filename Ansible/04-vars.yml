@@ -2,9 +2,9 @@
   hosts: local
   connection: local
   vars:
-    COURSE: "Ansible for DevOps"
-    DURATION: "5 days"
-    TRAINER: "siva"
+    COURSE: "Devops with AWS"
+    DURATION: "2 months"
+    TRAINER: "Manohar Anaganti"
   tasks:
   - name: display course details
     ansible.builtin.debug:
