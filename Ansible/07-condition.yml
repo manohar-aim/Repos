@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    number: 13
+    number: 3
 
   tasks:
   - name: check if number is less than 10
