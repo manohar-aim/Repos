@@ -3,10 +3,8 @@
   connection: local
   tasks:
   - name: print names
-    ansible.builtin.debug:
+    ansible.builtin.package:
       msg: "Hello {{ item }}"
     loop:
-    - Ramesh
-    - manohar
-    - raja
-    - vikas
+    - nginx
+    - mysql
