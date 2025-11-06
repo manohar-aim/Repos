@@ -1,6 +1,6 @@
 - name: play level variables
-  hosts: localhost
-  connection: localhost
+  hosts: local
+  connection: local
   vars:
     COURSE: "Ansible for DevOps"
     DURATION: "5 days"
