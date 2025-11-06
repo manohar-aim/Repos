@@ -1,0 +1,18 @@
+- name: datatypes
+  hosts: local
+  connection: local
+  vars:
+    course: "Devops with AWS"
+    duration: 10
+    is_live: true
+    topics:
+      - Ansible
+      - Docker
+      - Kubernetes
+    concepts: AWS"
+
+  tasks:
+  - name: display datatype values
+    ansible.builtin.debug:
+      msg: "Course: {{ course }}, Duration: {{ duration }}, Is Live: {{ is_live }}, Topics: {{ topics }}, Concepts: {{ concepts }}"
+        
